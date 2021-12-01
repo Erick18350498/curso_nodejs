@@ -1,1 +1,8 @@
-console.log("Hola Erick!");
+
+const express = require('express');
+
+const app = express();
+
+app.get('/', function (req, res) {res.send('Hola Erick'); } );
+
+app.listen(3000);
